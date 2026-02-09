@@ -4,6 +4,7 @@ import { sidebar } from './configs/sidebar.mts'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/SSMT4-Documents/",
   title: "SSMT4-Documents",
   description: "Documents for SSMT4",
   themeConfig: {
