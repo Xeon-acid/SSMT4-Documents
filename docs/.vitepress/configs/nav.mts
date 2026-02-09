@@ -10,7 +10,11 @@ export const nav: DefaultTheme.Config['nav'] = [
       { 
         text: 'VitePress2.0文档', 
         link: '/developer/vitepress/project-init' 
-      }
+      },
+      { 
+        text: 'Tauri学习笔记', 
+        link: '/developer/tauri/HowToSetIcon/HowToSetIcon' 
+      },
     ]
   }
 ]

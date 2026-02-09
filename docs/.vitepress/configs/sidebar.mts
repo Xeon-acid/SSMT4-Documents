@@ -7,7 +7,16 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       items: [
         { text: '项目初始化', link: '/developer/vitepress/project-init' }
       ]
-    }
+    },
+    {
+      text: 'Tauri学习笔记',
+      items: [
+        { text: '如何设置图标', link: '/developer/tauri/HowToSetIcon/HowToSetIcon' },
+        { text: '项目初始化', link: '/developer/tauri/ProjectInit/ProjectInit' },
+        { text: '第一次构建超时问题', link: '/developer/tauri/BuildTimeOutError/BuildTimeOutError' },
+        { text: '构建并发布', link: '/developer/tauri/BuildAndPublish/BuildAndPublish' },
+      ]
+    },
   ],
   '/': [
     {
