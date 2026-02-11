@@ -39,6 +39,11 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             {text: '控制语句和模式匹配', link: '/developer/rust/基础语法——猜数游戏/控制语句和模式匹配.md' },
             {text: '循环与表达式', link: '/developer/rust/基础语法——猜数游戏/循环与表达式.md' },
           ]
+        },
+        {
+          text: '编程语言常识', items: [
+            {text: '强类型与弱类型, 静态类型与动态类型', link: '/developer/rust/编程语言常识/强类型与弱类型, 静态类型与动态类型.md' },
+          ]
         }
       ]
     }
