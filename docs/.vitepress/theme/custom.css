@@ -1,5 +1,12 @@
-/* .centeringimage {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+:root {
+    --vp-font-family-mono: "JetBrains Mono", "Sarasa Mono SC", monospace;
+}
+
+code,
+pre,
+.shiki {
+    font-family: var(--vp-font-family-mono) !important;
+    font-variant-ligatures: contextual;
+    font-feature-settings: "liga" 1, "calt" 1;
+    line-height: 1.5;
+}

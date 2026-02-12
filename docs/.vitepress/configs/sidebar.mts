@@ -21,6 +21,10 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: '项目初始化', link: '/developer/tauri/ProjectInit/ProjectInit' },
         { text: '第一次构建超时问题', link: '/developer/tauri/BuildTimeOutError/BuildTimeOutError' },
         { text: '构建并发布', link: '/developer/tauri/BuildAndPublish/BuildAndPublish' },
+        { text: '架构', link: '/developer/tauri/架构/架构.md'},
+        { text: 'Vue', items: [
+          {text: '异步组件', link: '/developer/tauri/Vue/异步组件.md'}
+        ]}
       ]
     },
     {
@@ -43,6 +47,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         {
           text: '编程语言常识', items: [
             {text: '强类型与弱类型, 静态类型与动态类型', link: '/developer/rust/编程语言常识/强类型与弱类型, 静态类型与动态类型.md' },
+            {text: '编译型和解释型语言', link: '/developer/rust/编程语言常识/编译型和解释型语言.md'}
           ]
         }
       ]
