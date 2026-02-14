@@ -6,6 +6,8 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       text: 'SSMT开发日志',
       items: [
         { text: '为什么选择Rust + Tauri', link: '/developer/ssmt/WhyRustAndTauri/WhyRustAndTauri' },
+        { text: '为什么不设计为解压即用', link: '/developer/ssmt/WhyNoPortable/WhyNoPortable' },
+
       ]
     },
     {
