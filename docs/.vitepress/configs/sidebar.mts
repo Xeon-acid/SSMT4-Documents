@@ -55,6 +55,9 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         },
         {
           text: '基本语法与数据类型', link: '/developer/rust/基本语法与基本数据类型/基本语法与基本数据类型.md'
+        },
+        {
+          text: '函数与控制流', link: '/developer/rust/函数与控制流/函数与控制流.md'
         }
       ]
     }
